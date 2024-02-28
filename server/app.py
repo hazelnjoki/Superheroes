@@ -9,6 +9,8 @@ app.config['JSONIFY_PRETTYPRINT_REGULAR'] = False
 
 app.json.compact = True
 
+# boomer
+
 migrate = Migrate(app, db)
 
 db.init_app(app)
